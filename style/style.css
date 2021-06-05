@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+}
+
+/* header styling starts */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 2, 49);
+    height: 15vh;
+    padding: 5px 35px 5px 35px;
+    margin-bottom: 35px;
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav div{
+    margin-left: 40px;
+    height: 100%;
+}
+
+nav div a{
+    color: white;
+    text-decoration: none;
+}
+
+nav div a:hover{
+    color: wheat;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section to create contestants styling starts */
+#create-contestants{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    /* height: 60vh; */
+    /* width: 40vw; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px rgb(107, 105, 105);
+}
+
+#create-contestants h2{
+    color: rgb(2, 2, 49);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#create-contestants input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#create-contestants button{
+    padding: 10px;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: rgb(2, 2, 49);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+#create-contestants button:hover{
+    cursor: pointer;
+    color: wheat;
+}
+
+/* section to view all contestants styling starts */
+#view-contestant{
+    /* background-color: rgb(2, 2, 49); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+
+#view-contestant h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+td{
+    text-align: center;
+}
+
+
+table, thead, th, tr, td{
+    border: 1px solid rgb(2, 2, 49);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* polls page styling begins */
+td button{
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgb(2, 2, 49);
+    color: white;
+    width: 60%;
+    border: none;
+}
+
+td button:hover{
+    cursor: pointer;
+    color: wheat;
+}
